@@ -44,20 +44,35 @@
 </div>
 <!-- DEPOIMENTOS -->
 <div class="row collapse">
-<div class="depoimentos espacoAlunoDep">
-	<h2>Depoimentos</h2>
-	<div class="wrapDep">
-		<div> Decidi investir na Action360º por causa do diferencial competitivo da franquia. Em um cenário onde todos falam de crise, constatamos o crescimento da marca. A área de fitness, bem estar e qualidade de vida está em ascensão. <small><strong>Lucas</strong> <br/>
-			Unidade Oscar Freire</small> </div>
-		<div> Conheci a Action360o como aluna. O atendimento e o serviço proposto foram os grandes diferenciais para a minha escolha de atividade de vida e atividade física. Sem dúvida, quero poder oferecer essa qualidade de vida para outras pessoas com brilho nos olhos . <small><strong>Raphaela</strong> </small> </div>
-		<div> Após dois meses como franqueado, estamos acima da expectativa que me foi passada. O que me foi passado está acontecendo em melhor escala. <small><strong>Décio</strong> <br/>
-			Unidade Meoma</small> </div>
-		<div> Eu tinha o sonho de ser empreendedor. Pratico esporte e sei que o serviço que a Action360 presta pode mudar a qualidade de vida das pessoas, gerando bem-estar. A Action360 atende todas as minhas expectativas! <small><strong>Bruno</strong> <br/>
-			Unidade Campo Belo</small> </div>
+	<div class="depoimentos espacoAlunoDep">
+		<h2>Depoimentos</h2>
+		<ul class="wrapDep">
+			<li>
+				Decidi investir na Action360º por causa do diferencial competitivo da franquia. Em um cenário onde todos falam de crise, constatamos o crescimento da marca. A área de fitness, bem estar e qualidade de vida está em ascensão. 
+				<small><strong>Lucas</strong> <br/>
+				Unidade Oscar Freire</small>
+			</li>
+			<li> 
+				Conheci a Action360o como aluna. O atendimento e o serviço proposto foram os grandes diferenciais para a minha escolha de atividade de vida e atividade física. Sem dúvida, quero poder oferecer essa qualidade de vida para outras pessoas com brilho nos olhos . 
+				<small><strong>Raphaela</strong> </small>
+			</li>
+			<li> 
+				Após dois meses como franqueado, estamos acima da expectativa que me foi passada. O que me foi passado está acontecendo em melhor escala. 
+				<small><strong>Décio</strong> <br/>
+				Unidade Meoma</small>
+			</li>
+			<li>
+				Eu tinha o sonho de ser empreendedor. Pratico esporte e sei que o serviço que a Action360 presta pode mudar a qualidade de vida das pessoas, gerando bem-estar. A Action360 atende todas as minhas expectativas!
+				<small><strong>Bruno</strong> <br/>
+				Unidade Campo Belo</small> 
+			</li>
+		</ul>
+		<div class="depNav">
+			<span title="Anterior" id="depPrev" class="prev">Anterior</span>
+			<span title="Próximo"  id="depNext" class="next">Próximo</span>
+		</div>
+		<div class="clear"></div>
 	</div>
-	<div class="depNav"></div>
-	<div class="clear"></div>
 </div>
-
 <?php
 	include('_includes/footer.php');

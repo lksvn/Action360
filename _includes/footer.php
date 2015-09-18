@@ -46,6 +46,7 @@
 	<script src="assets/js/jquery.maskedinput.min.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/jquery.form.js"></script>
+	<script src="assets/js/jquery.bxslider.js"></script>
 
 	<!--[if (IE 9)|(IE 10)]>
     <script src="assets/js/jquery.placeholder.min.js"></script>

@@ -41,7 +41,7 @@ body{font-family: 'brandon_reg',tahoma,helvetica,sans-serif;}
     transition: all .3s;
 }
 .readMore,.orbitNav a,.orbitNavTxt a,.sellGoods .buyGood,
-input,.returnSliderNav a,.espacoAlunoDep .depNav a,.blogNav a,
+input,.returnSliderNav a,.espacoAlunoDep .depNav span,.blogNav a,
 .unidadesLista label,.fbSignIn,.signIn,.myProfile .chosePlan .alert-box a{
     -webkit-transition: background-color .3s;
     -o-transition: background-color .3s;
@@ -140,9 +140,9 @@ h6{font-size:14px;line-height:19px}
 }
 /*=================================================*/
 .orbitNav a{display:block;width:50%;height:60px;float:left;background:#a8252a url('../img/arrows.png') no-repeat center 0;font-size:0;}
-.orbitNav a.prev,.sellGoods .buyGood:hover,.depNav a.prev{background-color:#c44146;}
+.orbitNav a.prev,.sellGoods .buyGood:hover,.depNav span.prev{background-color:#c44146;}
 .orbitNav a.next{background-position:center -60px;}
-.orbitNav a:hover,.depNav a:hover,.returnSliderNav a:hover,.blogNav a{background-color:#db675a;}
+.orbitNav a:hover,.depNav span:hover,.returnSliderNav a:hover,.blogNav a{background-color:#db675a;}
 
 .orbitNavTxt{position:absolute;bottom: 70px;right: 70px;width:60px;}
 .orbitNavTxt a,.returnSliderNav a,.blogNav a{display:block;width:60px;height:60px;background:#de7d71 url('../img/arrows.png') no-repeat center -60px;font-size:0;}
@@ -150,13 +150,13 @@ h6{font-size:14px;line-height:19px}
 
 
 .depNav{margin-top:20px;}
-.depNav a,.downArrow{width:65px;height:65px;display:block;background:#a8252a url('../img/arrows.png') no-repeat center 0;font-size: 0;
+.depNav span,.downArrow{width:65px;height:65px;display:block;background:#a8252a url('../img/arrows.png') no-repeat center 0;font-size: 0;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
 }
-.depNav a.next,.downArrow{background-position-y: -6%;
+.depNav span.next,.downArrow{background-position-y: -6%;
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
@@ -183,13 +183,13 @@ h6{font-size:14px;line-height:19px}
 /*=================================================*/
 .depoimentos{padding:65px 150px;}
 .depoimentos.espacoAlunoDep,.ecommerceCall,.unidadesLista a:hover,[data-abide] .error small.error{background:#de7d71;color:#fff;}
-.espacoAlunoDep .depNav a,.espacoAlunoDep .depNav a.next:hover{background-color:#72d3ce;}
-.espacoAlunoDep .depNav a.next,.espacoAlunoDep .depNav a:hover{background-color:#60c9c4;}
+.espacoAlunoDep .depNav span,.espacoAlunoDep .depNav span.next:hover{background-color:#72d3ce;}
+.espacoAlunoDep .depNav span.next,.espacoAlunoDep .depNav span:hover{background-color:#60c9c4;}
 
 .wrapDep{font:normal 21px/23px 'brandon_reg',tahoma,helvetica,sans-serif;}
 .wrapDep{float:left;}
 .depNav{float:right;}
-.wrapDep,.wrapDep.slick-vertical .slick-slide{width:100% ;max-width:570px;height:200px;overflow: hidden}
+.wrapDep,.wrapDep li{width:100%;max-width:570px;min-height:150px;overflow: hidden}
 .wrapDep small{font-size:14px;display:block;width:100%;margin-top:10px;}
 .wrapDep small strong{text-transform:uppercase;}
 /*=================================================*/
@@ -240,7 +240,7 @@ input[type='submit'],.signIn{cursor:pointer;background:#a8252a;border:0;color:#f
 .blogNav:hover span{width:300px;padding:0 10px;}
 /*=================================================*/
 .ecommerceCall{padding:50px 60px;}
-.ecommerce{margin-top:80px;}
+.ecommerce{margin-top:80px;margin-bottom:60px;}
 .ecommerce .sellGoods{padding:0;background: none;}
 .ecommerce .sellGoods{color:#a79f9e}
 .ecommerce .sellGoods .buyGood,.buyItem .price{float:right;}
@@ -317,7 +317,9 @@ h2.modaltitle{color:#a8252a;text-align: center}
 :-ms-input-placeholder {
    color:#6d6362;
 }
-
+.bx-wrapper{float:left;}
+.bx-wrapper .bx-viewport{box-shadow:none !important;background:none !important;border:0 !important;}
+.bx-next,.bx-prev{display: block;width:100%;height:100%;}
 .carrinho_titulo{ font-size:1.375em; color: #3d4b59; margin:10px 0}
 .carrinho_th, .pag_label{ font-size:0.9375em; color:#000000; font-family:Arial, Helvetica, sans-serif; font-weight:bold}
 .carrinho_td{ font-size:0.875em; color:#6d6362; font-family:Arial, Helvetica, sans-serif}

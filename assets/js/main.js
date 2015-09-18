@@ -14,6 +14,9 @@ $(document).ready(function(){
     });
 
     $('.orbit').slick({
+        touchMove:false,
+        swipe:false,
+        draggable:false,
         autoplay: true,
         autoplaySpeed:4000,
         appendArrows:'.orbitNav',
@@ -21,24 +24,41 @@ $(document).ready(function(){
         nextArrow:'<a href="#" title="Próximo" class="next">Próximo</a>'
     });
     $('.orbitTxt').slick({
+        touchMove:false,
+        swipe:false,
+        draggable:false,
         autoplay: true,
         autoplaySpeed:8000,
         appendArrows:'.orbitNavTxt',
         prevArrow:'',
         nextArrow:'<a href="#" title="Próximo" class="next">Próximo</a>'
     });
-    $('.depoimentos .wrapDep').slick({
-        autoplay: true,
-        vertical:true,
-        verticalSwiping:true,
-        autoplaySpeed:8000,
-        adaptiveHeight: true,
-        mobileFirst:true,
-        appendArrows:'.depNav',
-        prevArrow:'<a href="#" title="Anterior" class="prev">Anterior</a>',
-        nextArrow:'<a href="#" title="Próximo" class="next">Próximo</a>'
+    // $('.depoimentos .wrapDep').slick({
+    //     touchMove:false,
+    //     swipe:false,
+    //     draggable:false,
+    //     infinite:false,
+    //     autoplay: true,
+    //     vertical:true,
+    //     verticalSwiping:true,
+    //     autoplaySpeed:8000,
+    //     appendArrows:'.depNav',
+    //     prevArrow:'<a href="#" title="Anterior" class="prev">Anterior</a>',
+    //     nextArrow:'<a href="#" title="Próximo" class="next">Próximo</a>'
+    // });
+    $('.wrapDep').bxSlider({
+      mode: 'vertical',
+      adaptiveHeight: true,
+      slideMargin: 5,
+      nextSelector:'#depNext',
+      prevSelector: '#depPrev',
+      pager:false,
+      responsive:false
     });
     $('.returnSlider').slick({
+        touchMove:false,
+        swipe:false,
+        draggable:false,
         autoplay: true,
         autoplaySpeed:8000,
         appendArrows:'.returnSliderNav',
