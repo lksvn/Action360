@@ -3,9 +3,10 @@
 	include('_includes/menu.php');
 ?>
 <!-- CONTENT -->
-<div class="row collapse">
-	<div class="columns medium-6 show-for-medium-up"> <img src="assets/img/unidades.jpg" alt=""> </div>
-	<div class="columns medium-6">
+<div class="row collapse" data-equalizer>
+	<div class="columns medium-6 show-for-medium-up blocoBG" data-equalizer-watch style="background-image:url(assets/img/unidades.jpg);">
+	</div>
+	<div class="columns medium-6" data-equalizer-watch>
 		<div class="bloco1">
 			<div>
 				<h1>Action 360º Saúde</h1>

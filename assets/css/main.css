@@ -128,6 +128,8 @@ h6{font-size:14px;line-height:19px}
     font:normal 23px 'brandon_bold',tahoma,helvetica,sans-serif;text-transform: uppercase;color:#fff;
 }
 
+.blocoBG{background-repeat:no-repeat;background-position:0 0;background-size:cover;}
+
 .bloco1 .subTitle{font-size:16px;}
 /*=================================================*/
 .bloco1{position:relative;background:#db675a;min-height:430px;padding:40px 70px;color:#fff;font:normal 18px/24px 'brandon_reg',tahoma,helvetica,sans-serif;}
@@ -187,7 +189,7 @@ h6{font-size:14px;line-height:19px}
 .wrapDep{font:normal 21px/23px 'brandon_reg',tahoma,helvetica,sans-serif;}
 .wrapDep{float:left;}
 .depNav{float:right;}
-.wrapDep,.wrapDep .slick-slide{width:100% ;max-width:570px;min-height: 190px}
+.wrapDep,.wrapDep.slick-vertical .slick-slide{width:100% ;max-width:570px;height:200px;overflow: hidden}
 .wrapDep small{font-size:14px;display:block;width:100%;margin-top:10px;}
 .wrapDep small strong{text-transform:uppercase;}
 /*=================================================*/
@@ -217,6 +219,8 @@ h6{font-size:14px;line-height:19px}
 .bloco2.franquia .title{padding:20px 50px 0;color:#6d6362;}
 .bloco2.franquia .pad{padding:50px;}
 .bloco2.franquia .pad{padding-top:20px;}
+
+
 /*=================================================*/
 input[type='text'],input[type='password']{background:#dcd9d8;border-color:#dcd9d8;box-shadow: none;}
 input[type='submit'],.signIn{cursor:pointer;background:#a8252a;border:0;color:#fff;font-size:16px;text-align: center;line-height:40px;width:150px;display:block;}
