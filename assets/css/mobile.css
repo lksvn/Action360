@@ -1,0 +1,79 @@
+@media only screen and (min-width : 320px) and (max-width: 768px) {
+    .bloco1{padding:40px 20px;}
+    .orbitNavTxt{bottom:40px;right:20px;}
+    .sellGoods,.ecommerceCall{padding:20px;}
+    .depoimentos,.missionPad .slick-slider{padding:20px;}
+
+    .depNav a{float:left;}
+    .wrapDep .slick-slide{min-height: 250px}
+
+    .footer{padding: 30px 10px;}
+    .footer ul.address li{width:100%;}
+    .footer .columns{margin-bottom:20px;}
+
+    .missionPad{padding:0;}
+    .contentPad{padding:30px 20px;}
+
+    .bloco2.franquia .title{padding:20px 20px 0;}
+    .bloco2.franquia .pad{padding:20px;}
+    .bloco2.franquia .title{font-size: 19px}
+
+    .returnSlider{margin:0;}
+    .returnFranquia .call{padding:20px;}
+
+    .blogNav:hover span{width:200px;}
+
+    .ecommerce .sellGoods .untGood{margin-left:80px;}
+    .buyItem .descGood{margin-left: 23px;}
+
+    #loginModal form,.submits{width:100%;}
+    .ecommerce{margin-top:20px;}
+    .buyItem{width:100%;}
+    .buyItem .price{font-size: 20px;}
+    .buyItem .price strong{font-size: 40px;}
+
+    .myProfile .chosePlan .step{margin:0 auto;float:none;}
+    .myProfile .chosePlan .deactivate{display:block;text-align: center;width:100%;}
+    .myProfile label{line-height:20px;}
+}
+@media only screen and (min-width : 480px) and (max-width: 768px) {
+    .sellGoods,.ecommerceCall{padding:50px 40px;}
+    .footer ul.address li{width:50%;}
+
+    .missionPad{padding:40px;}
+    .contentPad{padding:50px 40px;}
+
+    .blogNav:hover span{width:300px;}
+}
+@media only screen and (min-width : 640px) and (max-width: 768px) {
+    .bloco2 img{width:100%;}
+    .footer ul.address li{width:33%;}
+
+    .missionPad{padding:50px 40px;}
+    .missionPad .slick-slider{padding:50px;}
+
+    .bloco2.franquia .title{padding:20px 50px 0;}
+    .bloco2.franquia .pad{padding:50px;}
+    .bloco2.franquia .title{font-size: 23px}
+
+    .ecommerce .sellGoods .untGood{margin-left:130px;}
+}
+@media only screen and (min-width : 768px) and (max-width: 768px) {
+    .ecommerce .sellGoods .untGood{margin-left:45px;}
+    .buyItem .descGood{margin-left: -10px;}
+    .ecommerce{margin-top:40px}
+    .myProfile label{line-height:40px;}
+    .myProfile label.lineFix{line-height: 20px;}
+}
+@media only screen{
+    .reveal-modal.custom {width: 100%;}
+}
+@media only screen and (min-width: 40.0625em) and (max-width:48em) {
+    .reveal-modal.custom {width: 40%;}
+}
+@media only screen and (min-width:64em){
+    .reveal-modal.custom {width: 30% ;}
+}
+@media only screen and (min-width:65em){
+    .reveal-modal.custom {width: 20% ;}
+}
