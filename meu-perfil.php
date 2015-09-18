@@ -123,22 +123,24 @@
                     <small class="error">Por favor, digite o número</small>
                 </div>
             </div>
-            <div class="row">
         <!-- COMPLEMENT -->
+            <div class="row">
                 <div class="small-12 medium-3 columns">
                     <label for="complemento" class="small-only-text-left text-right">Complemento:</label>
                 </div>
-                <div class="small-12 medium-4 columns">
+                <div class="small-12  medium-9  columns">
                     <input tabindex="11" type="text" id="complemento" name="complemento">
-                </div>
+                 </div>
+            </div>
         <!-- NEIGHBORHOOD -->
-                <div class="small-12 medium-1 columns">
+            <div class="row">
+                <div class="small-12 medium-3 columns">
                     <label for="bairro" class="small-only-text-left text-right">Bairro:</label>
                 </div>
-                <div class="small-12 medium-4 columns">
+                <div class="small-12  medium-9  columns">
                     <input tabindex="13" type="text" id="bairro" name="bairro" required="">
                     <small class="error">Por favor, digite o seu bairro</small>
-                </div>
+                 </div>
             </div>
 
             <div class="row">
@@ -211,7 +213,7 @@
         <!-- SUBMIT BUTTON -->
             <div class="row">
                 <div class="columns medium-12">
-                    <input tabindex="20" type="submit" class="right botMarg" value="Atualizar">
+                    <input tabindex="20" type="submit" class="right botMarg" value="Atualizar Cartão">
                 </div>
             </div>
         </form>
