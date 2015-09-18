@@ -263,7 +263,7 @@ input[type='submit'],.signIn{cursor:pointer;background:#a8252a;border:0;color:#f
 .unidadesLista{list-style: none;padding:0;margin:50px auto 0 !important;background:#a8252a;width:240px;}
 .unidadesLista img{width:100%;min-height:150px;}
 .unidadesLista label{color:#fff;font:13px/14px 'brandon_bold',tahoma,helvetica,sans-serif;text-transform: uppercase;display: block !important;padding:7px 15px;}
-.unidadesLista label:hover,.unidadesLista .active a{background:#de7d71;}
+.unidadesLista label:hover,.unidadesLista li.active label,.unidadesLista .active a{background:#de7d71;}
 
 .loginCall{text-transform: uppercase;color:#a8252a;text-decoration: underline;font:16px/30px 'brandon_bold',tahoma,helvetica,sans-serif;margin:-45px 10px;}
 .loginCall:hover{text-decoration: none;background:#a8252a;color:#fff;padding:5px 10px;margin:-50px 0;}
