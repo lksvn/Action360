@@ -1,7 +1,7 @@
 	<!-- FOOTER -->
 	<div class="row">
 		<div class="footer">
-			<div class="columns medium-6"> <strong class="title">Nossas Unidades </strong>
+			<div class="columns medium-6 botMarg"> <strong class="title">Nossas Unidades </strong>
 				<ul class="address">
 					<li><strong>Nome da Unidade</strong> endereço da unidade <br/>
 						Tel.: (99) 9999-9999</li>
