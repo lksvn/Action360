@@ -189,7 +189,7 @@ h6{font-size:14px;line-height:19px}
 .wrapDep{font:normal 21px/23px 'brandon_reg',tahoma,helvetica,sans-serif;}
 .wrapDep{float:left;}
 .depNav{float:right;}
-.wrapDep,.wrapDep li{width:100%;max-width:570px;min-height:150px;overflow: hidden}
+.wrapDep,.wrapDep li{width:100%;max-width:570px;min-height:170px;overflow: hidden}
 .wrapDep small{font-size:14px;display:block;width:100%;margin-top:10px;}
 .wrapDep small strong{text-transform:uppercase;}
 /*=================================================*/
